@@ -1,113 +1,100 @@
 {
-    "books": [
-      {
-        "id": 1,
-        "title": "The Great Gatsby",
-        "description": "A novel about the American dream, love, and loss in 1920s New York.",
-        "price": 10.99,
-        "author": "F. Scott Fitzgerald",
-        "pagesCount": 180,
-        "publishedYear": 1925,
-        "genre": "Fiction",
-        "language": "English",
-        "image": "https://example.com/images/great-gatsby.jpg"
-      },
-      {
-        "id": 2,
-        "title": "Moby-Dick",
-        "description": "A sea captain's obsessive quest to kill a giant white whale.",
-        "price": 12.50,
-        "author": "Herman Melville",
-        "pagesCount": 635,
-        "publishedYear": 1851,
-        "genre": "Adventure",
-        "language": "English",
-        "image": "https://example.com/images/moby-dick.jpg"
-      },
-      {
-        "id": 3,
-        "title": "War and Peace",
-        "description": "A historical novel set during the Napoleonic wars, following the lives of several aristocratic families.",
-        "price": 15.99,
-        "author": "Leo Tolstoy",
-        "pagesCount": 1225,
-        "publishedYear": 1869,
-        "genre": "Historical Fiction",
-        "language": "Russian",
-        "image": "https://example.com/images/war-and-peace.jpg"
-      },
-      {
-        "id": 4,
-        "title": "1984",
-        "description": "A dystopian novel about a totalitarian regime that uses surveillance to control the populace.",
-        "price": 8.99,
-        "author": "George Orwell",
-        "pagesCount": 328,
-        "publishedYear": 1949,
-        "genre": "Dystopian",
-        "language": "English",
-        "image": "https://example.com/images/1984.jpg"
-      },
-      {
-        "id": 5,
-        "title": "Pride and Prejudice",
-        "description": "A romantic novel that critiques the British landed gentry of the early 19th century.",
-        "price": 9.99,
-        "author": "Jane Austen",
-        "pagesCount": 279,
-        "publishedYear": 1813,
-        "genre": "Romance",
-        "language": "English",
-        "image": "https://example.com/images/pride-and-prejudice.jpg"
-      },
-      {
-        "id": 6,
-        "title": "The Catcher in the Rye",
-        "description": "A story about the struggles of adolescence, mental health, and identity.",
-        "price": 11.49,
-        "author": "J.D. Salinger",
-        "pagesCount": 277,
-        "publishedYear": 1951,
-        "genre": "Coming-of-Age",
-        "language": "English",
-        "image": "https://example.com/images/catcher-in-the-rye.jpg"
-      },
-      {
-        "id": 7,
-        "title": "The Hobbit",
-        "description": "A fantasy novel about a hobbit's journey to help reclaim a treasure from a dragon.",
-        "price": 14.99,
-        "author": "J.R.R. Tolkien",
-        "pagesCount": 310,
-        "publishedYear": 1937,
-        "genre": "Fantasy",
-        "language": "English",
-        "image": "https://example.com/images/the-hobbit.jpg"
-      },
-      {
-        "id": 8,
-        "title": "To Kill a Mockingbird",
-        "description": "A novel about racial injustice in the Deep South during the 1930s, told through the eyes of a young girl.",
-        "price": 7.99,
-        "author": "Harper Lee",
-        "pagesCount": 281,
-        "publishedYear": 1960,
-        "genre": "Fiction",
-        "language": "English",
-        "image": "https://example.com/images/to-kill-a-mockingbird.jpg"
-      },
-      {
-        "id": 9,
-        "title": "Brave New World",
-        "description": "A dystopian novel set in a futuristic society where technology and conformity control human behavior.",
-        "price": 13.49,
-        "author": "Aldous Huxley",
-        "pagesCount": 311,
-        "publishedYear": 1932,
-        "genre": "Science Fiction",
-        "language": "English",
-        "image": "https://example.com/images/brave-new-world.jpg"
-      }
-    ]
-  }
-  
+  "books": [
+    {
+      "id": 1,
+      "title": "The Great Gatsby",
+      "description": "A novel about the American dream, love, and loss in 1920s New York.",
+      "price": 10.99,
+      "author": "F. Scott Fitzgerald",
+      "pagesCount": 180,
+      "publishedYear": 1925,
+      "genre": "Fiction",
+      "language": "English",
+      "image": "https://example.com/images/great-gatsby.jpg"
+    },
+    {
+      "id": 3,
+      "title": "War and Peace",
+      "description": "A historical novel set during the Napoleonic wars, following the lives of several aristocratic families.",
+      "price": 15.99,
+      "author": "Leo Tolstoy",
+      "pagesCount": 1225,
+      "publishedYear": 1869,
+      "genre": "Historical Fiction",
+      "language": "Russian",
+      "image": "https://example.com/images/war-and-peace.jpg"
+    },
+    {
+      "id": 4,
+      "title": "1984",
+      "description": "A dystopian novel about a totalitarian regime that uses surveillance to control the populace.",
+      "price": 8.99,
+      "author": "George Orwell",
+      "pagesCount": 328,
+      "publishedYear": 1949,
+      "genre": "Dystopian",
+      "language": "English",
+      "image": "https://example.com/images/1984.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Pride and Prejudice",
+      "description": "A romantic novel that critiques the British landed gentry of the early 19th century.",
+      "price": 9.99,
+      "author": "Jane Austen",
+      "pagesCount": 279,
+      "publishedYear": 1813,
+      "genre": "Romance",
+      "language": "English",
+      "image": "https://example.com/images/pride-and-prejudice.jpg"
+    },
+    {
+      "id": 6,
+      "title": "The Catcher in the Rye",
+      "description": "A story about the struggles of adolescence, mental health, and identity.",
+      "price": 11.49,
+      "author": "J.D. Salinger",
+      "pagesCount": 277,
+      "publishedYear": 1951,
+      "genre": "Coming-of-Age",
+      "language": "English",
+      "image": "https://example.com/images/catcher-in-the-rye.jpg"
+    },
+    {
+      "id": 7,
+      "title": "The Hobbit",
+      "description": "A fantasy novel about a hobbit's journey to help reclaim a treasure from a dragon.",
+      "price": 14.99,
+      "author": "J.R.R. Tolkien",
+      "pagesCount": 310,
+      "publishedYear": 1937,
+      "genre": "Fantasy",
+      "language": "English",
+      "image": "https://example.com/images/the-hobbit.jpg"
+    },
+    {
+      "id": 8,
+      "title": "To Kill a Mockingbird",
+      "description": "A novel about racial injustice in the Deep South during the 1930s, told through the eyes of a young girl.",
+      "price": 7.99,
+      "author": "Harper Lee",
+      "pagesCount": 281,
+      "publishedYear": 1960,
+      "genre": "Fiction",
+      "language": "English",
+      "image": "https://example.com/images/to-kill-a-mockingbird.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Brave New World",
+      "description": "A dystopian novel set in a futuristic society where technology and conformity control human behavior.",
+      "price": 13.49,
+      "author": "Aldous Huxley",
+      "pagesCount": 311,
+      "publishedYear": 1932,
+      "genre": "Science Fiction",
+      "language": "English",
+      "image": "https://example.com/images/brave-new-world.jpg"
+    }
+  ]
+}
