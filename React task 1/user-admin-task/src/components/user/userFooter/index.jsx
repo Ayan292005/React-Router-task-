@@ -3,7 +3,7 @@ import React from 'react'
 function UserFooter() {
   return (
     <>
-    <h1 style={{  width: "80%", margin: "0 auto"}}>This is Footer</h1>
+    <h1 style={{backgroundColor:"rgb(0,0,0,0.85)",color:"white",textAlign:"center"}}>This is Footer</h1>
     </>
   )
 }

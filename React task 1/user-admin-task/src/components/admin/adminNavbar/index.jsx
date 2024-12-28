@@ -7,7 +7,7 @@ import {NavLink} from "react-router-dom"
 function AdminNavbar() {
   return (
     <>
-             <Navbar bg="dark" data-bs-theme="dark">
+             <Navbar bg="dark" data-bs-theme="dark" style={{position:"fixed",top:"0",width:"100%",zIndex:"10000"}}>
         <Container>
           <NavLink className='mx-2' to="/admin" style={{textDecoration:"none",color:"white",fontSize:"40px"}}>Admin</NavLink>
           <Nav className="me-auto">

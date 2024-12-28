@@ -1,3 +1,11 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  position: relative;
+}
 .modal {
   position: fixed;
   top: 0;
@@ -36,3 +44,18 @@
   background-color: #dc2626; 
 }
 
+.btn-holder{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-btn{
+  font-size: 30px;
+  border: none;
+  text-align: center;
+  color: #dc2626;
+}
+body{
+  margin-top: 76px;
+}
