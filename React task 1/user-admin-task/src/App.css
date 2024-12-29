@@ -59,3 +59,16 @@ body{
 body{
   margin-top: 76px;
 }
+
+.search{
+width: 100%;
+display: flex;
+align-items: flex-start;
+gap: 10px;
+justify-content: center;
+flex-direction: column;
+}
+.search input{
+  width: 90%;
+  margin-top: 30px;
+}

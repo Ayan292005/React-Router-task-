@@ -24,10 +24,10 @@ function AdminProducts() {
     let dataId = data.filter(el => el.id !== id)
     setData(dataId)
 
-    axios.delete(`${DBurl}/${id}`)
-      .then(() => {
-        getData()
-      })
+    // axios.delete(`${DBurl}/${id}`)
+    //   .then(() => {
+    //     getData()
+    //   })
   }
 
   function handleModalClose() {
@@ -75,7 +75,7 @@ function AdminProducts() {
         <div className='modal'>
           <div className='modal-content '>
             <h2>Product Info</h2>
-            <img src={modalProduct.image} alt=""  style={{ height: '500px', objectFit: 'contain' }} />
+            <img src={modalProduct.image} alt=""  style={{ height: '200px', objectFit: 'contain' }} />
             <p><strong>title:</strong> {modalProduct.title}</p>
             <p><strong>description:</strong> {modalProduct.description}</p>
             <p><strong>author:</strong> {modalProduct.author}</p>

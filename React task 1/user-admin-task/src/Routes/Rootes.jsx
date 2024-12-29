@@ -7,6 +7,7 @@ import Home from "../pages/user/home/home"
 import Dashboard from "../pages/admin/dashboard"
 import Basket from "../pages/user/basket"
 import Favorites from "../pages/user/favorites"
+import AddProduct from "../pages/admin/AddBook"
 
 const Routes = [
     {
@@ -43,6 +44,10 @@ const Routes = [
             {
                 path: "dashboard",
                 element: <Dashboard/>,
+            },
+            {
+                path: "addProduct",
+                element: <AddProduct/>,
             }
         ]
     }

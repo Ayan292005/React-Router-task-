@@ -13,6 +13,7 @@ function AdminNavbar() {
           <Nav className="me-auto">
             <NavLink className='mx-2' to="/admin/dashboard" style={{textDecoration:"none",color:"white",fontSize:"20px"}}>Dashboard</NavLink>
             <NavLink className='mx-2' to="/admin/products" style={{textDecoration:"none",color:"white",fontSize:"20px"}}>Products</NavLink>
+            <NavLink className='mx-2' to="/admin/addProduct" style={{textDecoration:"none",color:"white",fontSize:"20px"}}>AddProduct</NavLink>
             <NavLink className='mx-2' to="/home" style={{textDecoration:"none",color:"white",fontSize:"20px"}}>Home</NavLink>
           </Nav>
         </Container>
